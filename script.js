@@ -13,4 +13,4 @@ function countVowels(str){
     return count;
  }
 
- //this is a vowels
+ //this is a vowel
