@@ -15,8 +15,8 @@
 
 //  //this is a vowel`
 
-let arr = [1, 2, 3, 4, 5];
+let arr = ["mumbai", "pune", "talmod", "hyd"];
 
-arr.forEach(function printVal(val){
-
+arr.forEach ((val) => {
+    console.log(val.toUpperCase());
 })
