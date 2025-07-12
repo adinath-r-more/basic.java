@@ -21,8 +21,14 @@
 //     console.log(val.toUpperCase());
 // })
 
-let nums = [2, 3, 4, 5, 6, 7];
+// let nums = [2, 3, 4, 5, 6, 7];
 
-nums.forEach((num) => {
-    console.log(num*num); //num**2
+// nums.forEach((num) => {
+//     console.log(num*num); //num**2
+// }); 
+
+let arr = ["pune", "delhi", "mumbai", "talmod"];
+
+arr.forEach((val, idx, arr) => {
+    console.log(val.toUpperCase(), idx, arr);
 });
