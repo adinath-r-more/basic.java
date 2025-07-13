@@ -1,34 +1,22 @@
-// function countVowels(str){
-//     let count = 0;
-//     for (const char of str){
-//         if (char === "a" || 
-//             char === "e" || 
-//             char === "i" || 
-//             char === "o" || 
-//             char === "u") 
-//         {
-//             count++;
-//         }
-//     }
-//     return count;
-//  }
+let n = prompt("enter a number :");
 
-//  //this is a vowel`
+let arr = [];
 
-// let arr = ["mumbai", "pune", "talmod", "hyd"];
+for (let i = 1; i <= n; i++){
+    arr[i-1] = i;
+}
 
-// arr.forEach ((val) => {
-//     console.log(val.toUpperCase());
-// })
+console.log(arr);
 
-// let nums = [2, 3, 4, 5, 6, 7];
-
-// nums.forEach((num) => {
-//     console.log(num*num); //num**2
-// }); 
-
-let arr = ["pune", "delhi", "mumbai", "talmod"];
-
-arr.forEach((val, idx, arr) => {
-    console.log(val.toUpperCase(), idx, arr);
+let sum = arr.reduce((res, curr) => {
+    return res + curr;
 });
+
+console.log("sum=",sum);
+
+let factorial = arr.reduce((res,curr) => {
+    return res * curr;
+});
+
+console.log("factorial =", factorial);
+
